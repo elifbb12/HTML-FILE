@@ -1,0 +1,55 @@
+İlk olarak her zaman şu açılır ve kapatılır:
+<html></html>
+HTML komutlarının arasına :
+<head></head>
+HEAD komutlarının arasına:
+<title></title>
+Title komutu başlığı gösterir.
+<body></body> ana sayfada gözükecek kısmın içine yazılacak yeri gösterir.
+#####ETİKETLER#####
+<b></b> =  ARASINDAKİ METNİ KALIN HALE GETİRİR.
+<strong></strong> =ARASINDAKİ METNİ KALIN HALE GETİRİR.
+<br> = KAPATILMAZ VE ALT ALTA YAZMAYI SAĞLAR.
+<u></u> = METNİN ALTINI ÇİZGİLİ YAPAR.
+<br/> = SATIR BOŞLUĞU YAPAR.
+<i></i> = METNİ İTALİK YAPAR.
+##########################################
+ ÖRNEK
+<body>
+<b><u><i>BİLİŞİM TEKNOLOJİLERİ<i></u></b>  BU ŞEKİLDE İLK YAZILAN METNİN SONUNDA EN SONDA OLUR.
+</body>
+##########################################
+<font> = İÇİNE YAZILIR.KAPATILIR.
+<font> içine weight="",height="" (<font color ="pink" size="4" face ="Arial">BİLİŞİM TEKNOLOJİLERİ</font>) YAZILIR.
+<h1><h2><h3><h4><h5><h6><h7> = KAPATILIR.(FARKLI BOYUTLARDA BAŞLIK ETİKETLERİ)
+#################################################################################################
+RESİMLERİ TANITIRKEN VE GÖSTERMEK İÇİN=<img src=" image/RENK KODLARI.png" width="600" height="600" title="Renk kodları" alt="Renk Kodları">
+<img>=KAPATILMAZ.
+src=""(GÖRÜNTÜLENMESİ İSTENİLEN RESMİ BELİRTİR.)
+alt="" (ÇOOOK ÖNEMLİ GOOGLE DA ARAMA YAPAN KİŞİNİN O BİLGİYE ULAŞMASI GEREKEN İSMİ GÖSTERİR.)
+border="" etiketi de kullanılabilir(KENARLIK YAPAR. ÇİFT TIRNAK İÇİNE RAKAM YAZILIR.)
+################################################################################################
+<ol>= SIRALI LİSTELERDE KULLANILIR.KAPATILIR.
+<li> = ALT ALTA YAZMAYI SAĞLAR.KAPATILIR.
+<ul>=SIRASIZ LİSTELERDE KULLANILIR.KAPATILIR.
+<ul type="square"> = SIRASIZ LİSTELERDE ŞEKLİ GÖSTERİR.
+##########################################################################
+<a<</a> = LİNK ETİKETİDİR.WEB SAYFALARINA LİNK VERMEK İÇİN KULLANILIR.
+a etiketinin içine yazılan HREF(href="")PARAMETRESİ YÖNLENDİRİLECEK SAYFANIN ADININ YADA ADRESİNİN BELİRLENMESİNDE.
+a etiketinin içine yazılan TARGET(target="") PARAMETRESİ YÖNLENİLEN SAYFANIN HANGİ SEKMEDE AÇILACAĞININ BELİRLENMESİNDE.
+HREF PARAMETRESİNİN İÇİNDE BULUNAN # İŞARETİ YÖNLENMENİN SAYFA İÇİ BİR DURAĞA OLACAĞINI BELİRLER.
+(name="") PARAMETRESİ SAYFA İÇİ YÖNLENİLECEK DURAĞIN TANIMLANMASINDA KULLANILIR.
+####################################################################################
+TABLO OLUŞTURMA
+<table></table> kullanılır tablo oluşturulurken.
+border parametresini table içinde kullanılarak KANARLIK belirtilmesinde kullanılır.
+<tr></tr> etiketi TABLONUN SATIRLARINI
+<td></td> SATIRLARDA YER ALAN HÜCRE OLUŞTURMADA KULLANILIR.
+colspan parametresi =YAN YANA
+rowspan parametresi =ALT ALTA
+olan hücrelerin birleştirilmesinde kullanılır.
+align paramtresi = HİZALAMA için kullanılır.(left-right-center)
+bgcolor paramtresi = ARKA PLAN RENGİ VERMEK İÇİN KULLANILIR.
+cellpadding = HÜCRELERİN İÇ KISMINDAKİ BOĞLUĞU BELİRLEME
+cellspacing = HÜCRELERİN DIŞ KISMINDAKİ BOĞLUĞU BELİRLEME
+#####################################################################3
